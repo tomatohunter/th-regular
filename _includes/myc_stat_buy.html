@@ -1,0 +1,94 @@
+
+<h3 style="text-align:left">
+  Pick a domain name<br>
+  Choose your hosting plan<br>
+  Pay with Bitcoin</h3>
+
+<div style="text-align:left">
+<p><small><b>Free Domain Registration</b></small></p>
+    <p><small>
+Pick a domain name and fill in the form below. <br>
+<b>We can only register a non-premium .com domain.</b> <br>
+We also reserve the right to decline a domain registration without any explanation.
+  </small>
+    </p>
+    <p>
+      <small>
+        For technical reasons, domain registration on our behalf is only available for annual plans.
+      </small>
+    </p>
+<p><small><b>Primary Domain Setup</b></small></p>
+  <p>
+    <small>
+    You should also decide whether your primary domain will be a static website or a Ghost blog.
+    In case of Ghost we will set up the blog for you.
+    If you opt for Jekyll or a static website, you're in charge of the set up.
+    </small>
+  </p>
+
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+var animation_direction  = null;
+
+/*
+function animateHeight(obj, height) {
+  var obj_height = obj.clientHeight;
+
+  if(obj_height == height) { return; }
+
+  if(obj_height <= height) {
+    if(animation_direction == "up") { animation_direction = null; return; }
+    else if(!animation_direction)   { animation_direction = "down"; }
+    obj.style.height = (obj_height + obj_height/50) + "px";
+    setTimeout(function(){
+      animateHeight(obj, height);
+    }, 5)
+  }
+  else {
+    if(animation_direction == "down") { animation_direction = null; return; }
+    else if(!animation_direction)     { animation_direction = "up"; }
+    obj.style.height = (obj_height - obj_height/50) + "px";
+    setTimeout(function(){
+      animateHeight(obj, height);
+    }, 5)
+  }
+}*/
+
+// Use both class and ids to identify widgets
+var w       = document.getElementById('gear-widget');
+var widgets = document.getElementsByClassName('gear-widget')
+var widgets_collection = [];
+for (var i = 0, len = widgets.length; i < len; i++) {
+  widgets_collection.push(widgets[i]);
+}
+widgets_collection.push(w);
+widgets = widgets_collection;
+
+for (var i = 0, len = widgets.length; i < len; i++) {
+  var widget = widgets[i];
+  var target = widget.getAttribute('src');
+  widget.contentWindow.postMessage({}, target);
+}
+
+window.addEventListener('message', function(event) {
+  if(event.data.eventName == 'gear-widget-height-change') {
+    for (var i = 0, len = widgets.length; i < len; i++) {
+      var widget = widgets[i];
+      var target = widget.getAttribute('src');
+      animateHeight(widget, event.data.newHeight);
+    }
+  }
+  if(event.data.eventName == 'redirect') {
+    window.location = event.data.location;
+  }
+});
+
+};
+
+</script>
+<iframe id="gear-widget" scrolling="no" src="https://gateway.gear.mycelium.com/widgets/0185305179916eff6d48dfe67a188e2fb374f74a5d235afa890855103a5e5818" style="border: none; display: inline-block; height: 310px; min-width: 250px; max-width: 600px;"></iframe>
+
+<p><small><b>By completing the order you are accepting our <a href="/tos">TOS</a> and <a href="/aup">AUP</a>.</b></small></p>

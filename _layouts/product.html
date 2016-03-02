@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include nav.html %}
+
+    {% if page.tag == "tos" %}
+      {% include header-tos.html %}
+    {% elsif page.tags contains "aup" %}
+      {% include header-aup.html %}
+    {% elsif page.tags contains "host" %}
+        {% include header-product.html %}
+    {% elsif page.tags contains "wp" %}
+            {% include header-wp.html %}
+    {% elsif page.tag == "docs" %}
+      {% include header-docs.html %}
+    {% endif %}
+
+    <section style="padding: 10px 0;" id="page">
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-8 col-lg-offset-2 text-left">
+                  <h3>{{ page.title }}</h3>
+              </div>
+          </div>
+          <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-left">
+
+
+                  {{ content }}
+
+                  <div id="pay-with-bitcoin"></div>
+                  <payment>
+                    {% if page.categories contains "jekyll-bitcoin-hosting" %}
+                    {% include myc_stat_own.html %}
+                    {% else %}
+                    This plan is not available at the moment.
+                    {% endif %}
+
+                  
+                  </payment>
+
+                </div>
+          </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
+</html>

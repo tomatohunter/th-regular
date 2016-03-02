@@ -1,0 +1,59 @@
+ <!-- Portfolio Modals -->
+ {% for post in site.posts %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>{{ post.title }}</h2>
+                            <hr class="star-primary">
+                            <div style="text-align:left">
+                              <p>
+                                {{ post.content }}
+                              </p>
+                            </div>
+
+                          <div id="payment">
+                            {% if post.categories contains "jekyll-bitcoin-hosting" %}
+
+                                <div id="own-b" class="btn btn-lg btn-outline btn-cta btn-get t-own" title="You will have to alter your DNS settings by yourself. We provide a walk-through for that in your confirmation email.">
+                                <span>
+                                  I already have a domain
+                                </span>
+                                </div>
+
+                                <div id="buy-b" class="btn btn-lg btn-outline btn-cta btn-get t-buy" title="We will register a domain for you free of charge with annual plans. Non-premium COM domains only.
+                                  We reserve the right to refuse a registration with no reasons given.">
+                                <span>
+                                  I want to register a .com domain
+                                </span>
+                                </div>
+
+
+                              <div id="own">
+                                {% include myc_stat_own.html %}
+                              </div>
+                              <div id="buy">
+                                {% include myc_stat_buy.html %}
+                              </div>
+
+                            {% else %}
+                            This plan is not available at the moment.
+                            {% endif %}
+
+                          </div><!--payment-->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}

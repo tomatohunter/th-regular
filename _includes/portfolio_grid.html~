@@ -1,0 +1,36 @@
+<!-- Portfolio Grid Section -->
+<header>
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                {% for post in site.posts %}
+                    <div class="col-sm-4 portfolio-item">
+                      <h2 class="hosting-type">{{ post.title }}</h2>
+                          <ul class="hosting-specs">
+                              <li><span>FREE</span> SSL setup</li>
+                              <li><span>FREE</span> Cloudflare</li>
+                              <li>{{ post.db }} Database</li>
+                              <li>{{ post.type }} Website</li>
+                              <li>Full cPanel and FTP access</li>
+                              <li>One-click apps</li>
+                              <li><span>Unlimited</span> Domains and traffic</li>
+                              <li><span>Unlimited</span> Emails</li>
+                              <li><span>FREE</span> Mail sender</li>
+                              <li>99.9% Uptime</li>
+                              <li>4 billing cycles</li>
+                              <li>Monthly<br>
+                                <span data-btc-price="{{ post.price }}"></span><br>
+                                paid in Bitcoin<br>
+                              <small>Click on the price to loop through currencies</small></li>
+                          </ul>
+                      <a href="#portfolioModal-{{ post.modal-id }}"  data-toggle="modal" class="btn btn-lg btn-outline btn-cta">
+                          More about this plan
+                      </a>
+
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
+</header>

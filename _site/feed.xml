@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>TomatoHunter</title>
+    <description>Anonymous web hosting crafted for privacy hunters. Bitcoin payment, email and domain name - you&#39;re good to go. Jekyll hosting, HTML hosting, Joomla and Wordpress hosting.</description>
+    <link>https://www.tomatohunter.com/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 02 Mar 2016 00:29:04 +0100</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2016 00:29:04 +0100</lastBuildDate>
+    <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Static Website Bitcoin Hosting</title>
+        <description>Static website hosting, good for HTML websites or website generators - Jekyll, Octopress and other. Paid with Bitcoin.</description>
+        <pubDate>Thu, 18 Feb 2016 00:00:00 +0100</pubDate>
+        <link>https://www.tomatohunter.com/jekyll-bitcoin-hosting/2016/02/18/static/</link>
+        <guid isPermaLink="true">https://www.tomatohunter.com/jekyll-bitcoin-hosting/2016/02/18/static/</guid>
+        
+        
+        <category>jekyll-bitcoin-hosting</category>
+        
+      </item>
+    
+      <item>
+        <title>Wordpress Bitcoin Hosting</title>
+        <description>Wordpress shared hosting, paid with Bitcoin.</description>
+        <pubDate>Sun, 31 Jan 2016 00:00:00 +0100</pubDate>
+        <link>https://www.tomatohunter.com/wordpress-bitcoin-hosting/2016/01/31/wp/</link>
+        <guid isPermaLink="true">https://www.tomatohunter.com/wordpress-bitcoin-hosting/2016/01/31/wp/</guid>
+        
+        
+        <category>wordpress-bitcoin-hosting</category>
+        
+      </item>
+    
+      <item>
+        <title>Joomla Bitcoin Hosting</title>
+        <description>Joomla shared hosting. Paid with Bitcoin.</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 +0100</pubDate>
+        <link>https://www.tomatohunter.com/joomla-bitcoin-hosting/2016/01/11/jml/</link>
+        <guid isPermaLink="true">https://www.tomatohunter.com/joomla-bitcoin-hosting/2016/01/11/jml/</guid>
+        
+        
+        <category>joomla-bitcoin-hosting</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,44 @@
+ <!-- About Section -->
+    <section class="success" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About Tomato Hunter</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                 <p>We do anonymous web hosting for Bitcoin.</p>
+		 <p><b>How to order?</b><br>
+If you own a domain name and an email address you are ready to go. Choose your plan, pay the bill and wait for us to send you your access data. It won't take more than 24 hours.</p><p>
+		 We recommend you get a mailbox by <a href="https://www.tutanota.com">Tutanota</a>. We use them too. If you give us your Tutanota email address our message with your access credentials will come end-to-end encrypted.</p><p>
+Don't have a domain name yet? Get one now. With <a target="_blank" href="https://www.namecheap.com/?aff=96621" rel="nofollow">NameCheap</a> you can register your Bitcoin domain name within secods.</p>
+                </div>
+                <div class="col-lg-4">
+                  <footer>
+		<p>We are a Bitcoin web host and we are anonymous. <br><br>We will still suspend your account if you do not act in accordance with our terms of service and acceptable use policy. Please read these carefully.</p>
+                    <p>                      
+                      <a href="/tos">Terms of service</a>
+                      <br>
+                      <a href="/aup">Acceptable use policy</a>
+		      <br><br>
+                      <a href="#/faq">FAQ</a>
+                      <br>
+		      <a href="/docs">Documentation</a>		                    
+                      <br><br>
+                      <a target="_blank" href="https://www.staticgen.com/">Top static website generators</a>
+                      <br>
+                      <a target="_blank" href="http://www.coindesk.com/information/what-is-bitcoin/">What is bitcoin?</a>
+
+                    </p>
+                  </footer>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#portfolio" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> See our plans
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
