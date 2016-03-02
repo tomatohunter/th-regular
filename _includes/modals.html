@@ -20,35 +20,15 @@
                               </p>
                             </div>
 
-                          <div id="payment">
-                            {% if post.categories contains "jekyll-bitcoin-hosting" %}
-
-                                <div id="own-b" class="btn btn-lg btn-outline btn-cta btn-get t-own" title="You will have to alter your DNS settings by yourself. We provide a walk-through for that in your confirmation email.">
-                                <span>
-                                  I already have a domain
-                                </span>
-                                </div>
-
-                                <div id="buy-b" class="btn btn-lg btn-outline btn-cta btn-get t-buy" title="We will register a domain for you free of charge with annual plans. Non-premium COM domains only.
-                                  We reserve the right to refuse a registration with no reasons given.">
-                                <span>
-                                  I want to register a .com domain
-                                </span>
-                                </div>
-
-
-                              <div id="own">
-                                {% include myc_stat_own.html %}
-                              </div>
-                              <div id="buy">
-                                {% include myc_stat_buy.html %}
-                              </div>
-
-                            {% else %}
-                            This plan is not available at the moment.
-                            {% endif %}
-
-                          </div><!--payment-->
+              <div id="payment">
+                {% if post.categories contains "jekyll-bitcoin-hosting" %}
+                  {% include myc_stat_buttons.html %}
+                {% elsif post.categories contains "ghost-bitcoin-hosting" %}
+                  {% include myc_ghost_buttons.html %}
+                {% else %}
+                  <br>This plan is not available at the moment.
+                {% endif %}
+              </div><!--payment-->
 
                         </div>
                     </div>

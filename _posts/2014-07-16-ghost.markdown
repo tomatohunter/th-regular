@@ -1,19 +1,19 @@
 ---
 layout: default
 
-title: Wordpress Bitcoin Hosting
-modal-id: TH_CMS
-date: 2016-01-01
+title: Ghost Bitcoin Hosting
+modal-id: TH_GHOS
+date: 2016-01-11
 
 
-img: wp.png
+img: jml.png
 alt: Tomato Hunter Bitcoin Webhosting
-category: cms-bitcoin-hosting
-description: Wordpress shared hosting, paid with Bitcoin.
+category: ghost-bitcoin-hosting
+description: Ghost blog on a shared hosting. Installed with one-click app, paid with Bitcoin.
 
-db: Unlimited
-type: WordPress, Joomla or other CMS
-price: 0.015
+db: 1
+type: Ghost blog plus unlimited static websites
+price: 0.01
 apps: yes
 ---
 
@@ -21,15 +21,14 @@ apps: yes
 | SSL, Cloudflare | <span>FREE</span> |
 | Server Location | Canada |
 | Domains | Unlimited |
-| Databases | Unlimited |
-| Disk Space | 500 MB |
 | Traffic | Unlimited |
-| Apps | One-click installs, Mail senders |
+| Apps | One-click installs |
+| Disk Space | 100 MB |
+| Databases | 1 |
 | Access | FTP, cPanel |
 | Support | Chat & email |
 
-
-<a href="/bitcoin-wordpress-hosting/" class="btn btn-lg btn-outline btn-cta btn-get">
+<a href="/bitcoin-ghost-hosting/" class="btn btn-lg btn-outline btn-cta btn-get">
 Full list of features
 </a>
 

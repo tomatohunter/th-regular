@@ -12,6 +12,18 @@ body {
 blockquote {
     border-left: 5px solid #BEAD87!important;
 }
+pre {display: block;
+padding: 1em;
+margin: 0 0 1em;
+font-size: 16px;
+line-height: 1.42857143;
+word-break: break-all;
+word-wrap: break-word;
+color: #3A251D;
+background-color: rgba(190, 173, 135, 0.34);
+border: 0px solid ##ffffff;
+border-radius: 0;
+}
 p {
     font-size: 20px;
 }
@@ -587,12 +599,12 @@ payment, #payment {
 display: block;
 width: 100%;
 outline: 1px solid #192531;
-padding: 50px;
+padding: 21px 50px 50px 50px;
 margin: 25px 0;
 text-align: center;
 }
 #own,#buy { display:none; }
-.t-own, .t-buy {}
+.t-own, .t-buy {margin-top:0}
 
 /* tables */
 

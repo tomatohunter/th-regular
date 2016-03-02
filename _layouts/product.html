@@ -34,12 +34,12 @@
                   <div id="pay-with-bitcoin"></div>
                   <payment>
                     {% if page.categories contains "jekyll-bitcoin-hosting" %}
-                    {% include myc_stat_own.html %}
+                      {% include myc_stat_buttons.html %}
+                    {% elsif page.categories contains "ghost-bitcoin-hosting" %}
+                      {% include myc_ghost_buttons.html %}
                     {% else %}
-                    This plan is not available at the moment.
+                      <br>This plan is not available at the moment.
                     {% endif %}
-
-                  
                   </payment>
 
                 </div>

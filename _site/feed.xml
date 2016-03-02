@@ -5,8 +5,8 @@
     <description>Anonymous web hosting crafted for privacy hunters. Bitcoin payment, email and domain name - you&#39;re good to go. Jekyll hosting, HTML hosting, Joomla and Wordpress hosting.</description>
     <link>https://www.tomatohunter.com/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Mar 2016 00:29:04 +0100</pubDate>
-    <lastBuildDate>Wed, 02 Mar 2016 00:29:04 +0100</lastBuildDate>
+    <pubDate>Wed, 02 Mar 2016 19:01:43 +0100</pubDate>
+    <lastBuildDate>Wed, 02 Mar 2016 19:01:43 +0100</lastBuildDate>
     <generator>Jekyll v3.1.0</generator>
     
       <item>
@@ -22,26 +22,26 @@
       </item>
     
       <item>
-        <title>Wordpress Bitcoin Hosting</title>
-        <description>Wordpress shared hosting, paid with Bitcoin.</description>
-        <pubDate>Sun, 31 Jan 2016 00:00:00 +0100</pubDate>
-        <link>https://www.tomatohunter.com/wordpress-bitcoin-hosting/2016/01/31/wp/</link>
-        <guid isPermaLink="true">https://www.tomatohunter.com/wordpress-bitcoin-hosting/2016/01/31/wp/</guid>
+        <title>Ghost Bitcoin Hosting</title>
+        <description>Ghost blog on a shared hosting. Installed with one-click app, paid with Bitcoin.</description>
+        <pubDate>Mon, 11 Jan 2016 00:00:00 +0100</pubDate>
+        <link>https://www.tomatohunter.com/ghost-bitcoin-hosting/2016/01/11/ghost/</link>
+        <guid isPermaLink="true">https://www.tomatohunter.com/ghost-bitcoin-hosting/2016/01/11/ghost/</guid>
         
         
-        <category>wordpress-bitcoin-hosting</category>
+        <category>ghost-bitcoin-hosting</category>
         
       </item>
     
       <item>
-        <title>Joomla Bitcoin Hosting</title>
-        <description>Joomla shared hosting. Paid with Bitcoin.</description>
-        <pubDate>Mon, 11 Jan 2016 00:00:00 +0100</pubDate>
-        <link>https://www.tomatohunter.com/joomla-bitcoin-hosting/2016/01/11/jml/</link>
-        <guid isPermaLink="true">https://www.tomatohunter.com/joomla-bitcoin-hosting/2016/01/11/jml/</guid>
+        <title>Wordpress Bitcoin Hosting</title>
+        <description>Wordpress shared hosting, paid with Bitcoin.</description>
+        <pubDate>Fri, 01 Jan 2016 00:00:00 +0100</pubDate>
+        <link>https://www.tomatohunter.com/cms-bitcoin-hosting/2016/01/01/wp/</link>
+        <guid isPermaLink="true">https://www.tomatohunter.com/cms-bitcoin-hosting/2016/01/01/wp/</guid>
         
         
-        <category>joomla-bitcoin-hosting</category>
+        <category>cms-bitcoin-hosting</category>
         
       </item>
     

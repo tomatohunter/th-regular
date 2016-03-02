@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+
+    <body id="page-top" class="index">
+
+    {% include nav.html %}
+
+    <section class="" id="page">
+          <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+
+                  <h3 style="text-align:left">
+                    Tell us your domain name<br>
+                    Choose your billing plan<br>
+                    Pay with Bitcoin</h3>
+
+                  {{ content }}
+
+              </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 text-left">
+              <small>
+                <b>
+                  By placing the order you agree to comply with our
+                  <a href="/tos">TOS</a> and <a href="/aup">AUP</a>.
+                </b>
+              </small>
+            </div>
+        </div>
+    </section>
+
+    {% include footer.html %}
+    {% include modals.html %}
+    {% include js.html %}
+
+    </body>
+</html>

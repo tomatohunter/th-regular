@@ -2,7 +2,7 @@
 layout: default
 
 title: Static Website Bitcoin Hosting
-modal-id: STAT0103
+modal-id: TH_STAT
 date: 2016-02-18
 
 img: static.png
@@ -11,20 +11,20 @@ category: jekyll-bitcoin-hosting
 description: Static website hosting, good for HTML websites or website generators - Jekyll, Octopress and other. Paid with Bitcoin.
 
 db: "No"
-type: Static
+type: Jekyll, Octopress or plain static website
 price: 0.005
+apps: no
 ---
 
 
-| SSL | <span>FREE</span> |
+| SSL, Cloudflare | <span>FREE</span> |
 | Server Location | Canada |
-| Disk Space | 100 MB |
-| Bandwidth / Mo | Unlimited |
-| Databases | 0 |
-| FTP | Yes |
-| cPanel | Yes |
 | Domains | Unlimited |
-| Email accounts | Unlimited |
+| Traffic | Unlimited |
+| Emails | Unlimited |
+| Disk Space | 100 MB |
+| Databases | 0 |
+| Access | FTP, cPanel |
 | Tech Support | Chat & email |
 
 
@@ -34,22 +34,10 @@ Full list of features
 
 &nbsp;
 
-**Anonymous Bitcoin Web Hosting**
+{{ site.check }} **Anonymous Bitcoin Web Hosting? How does it work?**
 
-**How it works?** Give us your email and domain name, we will set up your account for you and email you your cPanel and FTP access. Please [get in touch with us](mailto:tomatohunter@tutanota.com) if you didn't receive your account details in 24 hours after your order was finished.
+Give us your email and domain name, we will set up your account for you and email you your cPanel and FTP access.
+
+{{ site.check }} **Terms and conditions**
 
 For the love of all that is holy, read our [TOS](/tos/) and [AUP](/aup/) before you order. We are anonymous bitcoin web host but we will still suspend your account if you breach our [TOS](/tos/) and [AUP](/aup/).
-
-**Need help?**
-
-* check out our [docs](/docs/)
-
-* get in touch with us on [Gitter chat](https://gitter.im/tomatohunter/jekyll-bitcoin-hosting?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-
-* send us an [email](/#contact)
-
-**Don't have a domain name yet?**
-
-<a target="_blank" href="https://www.namecheap.com/?aff=96621" rel="nofollow">Get one now. With NameCheap you can register your Bitcoin domain name within secods.</a>
-
-_______________________

@@ -9,18 +9,24 @@
                           <ul class="hosting-specs">
                               <li><span>FREE</span> SSL setup</li>
                               <li><span>FREE</span> Cloudflare</li>
-                              <li>{{ post.db }} Database</li>
-                              <li>{{ post.type }} Website</li>
-                              <li>Full cPanel and FTP access</li>
-                              <li>One-click apps</li>
+                              <li>{{ post.type }}</li>
+                              <li>
+                                {% if post.apps %}
+                                <span>FREE</span> Softaculous One-click apps
+                                {% else %}
+                                Enough space for up to 10 static websites
+                                {% endif %}
+                              </li>
                               <li><span>Unlimited</span> Domains and traffic</li>
                               <li><span>Unlimited</span> Emails</li>
                               <li><span>FREE</span> Mail sender</li>
+                              <li>{{ post.db }} DB</li>
+                              <li>cPanel, FTP</li>
                               <li>99.9% Uptime</li>
                               <li>4 billing cycles</li>
                               <li>Monthly<br>
                                 <span data-btc-price="{{ post.price }}"></span><br>
-				and less<br>
+				                            and less<br>
                                 paid in Bitcoin<br>
                               <small>Click on the price to loop through currencies</small></li>
                           </ul>
